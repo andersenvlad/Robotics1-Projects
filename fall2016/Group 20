@@ -1,0 +1,18 @@
+Group 20 Trossbot
+Vlad Andersen
+Derek Kennedy
+Scott Lauromouse
+
+Almost all the functions in the folder require the subproblems and rotations given to us from LMS these need to be added to the path.
+Also requires the Robot Raconteur, and python 2.7. Also you need to set the move mode to MOVE_MODE_LINEAR in the server serial interface
+python file.
+
+You need first to create the "robot" struct in the workspace, by connecting to the server. There is an intilization function that you can 
+run immedietly to do this.
+
+your can use the move_arm command to move the arm to a specific position, but you also need to specify the tip orientation you want
+(in the x-y plane) and whether you want the suction cup on or off. (3 input arguments)
+
+there are scripts to execute some of our open cna closed loop control as well as the learned skill.
+
+If you want to get the camera working you need the open cv and all the support software the comes with the camera.
