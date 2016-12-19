@@ -3,6 +3,9 @@ Vlad Andersen
 Derek Kennedy
 Scott Lauromouse
 
+The Dobot Folder contains the code we used for our final demonstrations and videos.
+The trossen folder contains code that was not re-used for the dobot
+
 Almost all the functions in the folder require the subproblems and rotations given to us from LMS these need to be added to the path.
 Also requires the Robot Raconteur, and python 2.7. Also you need to set the move mode to MOVE_MODE_LINEAR in the server serial interface
 python file.
